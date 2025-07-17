@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta de Cumpleaños</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="birthdayCard">
+    <div class="cardFront">
+      <div class="front-text">
+        <h3 class="happy">HAPPY</h3>
+        <h2 class="bday">BIRTHDAY</h2> 
+        <h3 class="toyou">to you!</h3>  
+      </div>
+      <div class="wrap-deco">
+        <div class="decorations"></div>
+        <div class="decorationsTwo"></div>
+      </div> 
+      <div class="wrap-decoTwo">
+        <div class="decorations"></div>
+        <div class="decorationsThree"></div>
+      </div>
+      <div class="plate">
+        <div class="cake"></div>
+        <div class="flame"></div>
+      </div>
+    </div>
+      
+    <div class="cardInside">
+      <div class="inside-text">
+        <h3 class="happy">HAPPY</h3>
+        <h2 class="bday">BIRTHDAY</h2> 
+        <h3 class="toyou">to you!</h3>  
+      </div>
+      <div class="wishes">
+        <p>Querida amiga,</p>
+        <p>¡Feliz cumpleaños! Espero que tu día haya estado lleno de alegría, amor y muchos momentos hermosos. Te deseo lo mejor hoy y siempre. Gracias por ser una persona tan especial.</p>
+        <p class="mery">17/07/25</p>
+        <button onclick="document.getElementById('birthdayMusic').play()">🎵 Reproducir Música</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio -->
+  <audio id="birthdayMusic" src="cumple.mp3"></audio>
+</body>
+</html>
