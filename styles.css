@@ -1,7 +1,7 @@
 :root {
   --primary-bg-color: #00bbf9;
-  --card-width: 250px; /* Incrementar tamaño de la tarjeta */
-  --card-height: 370px; /* Incrementar tamaño de la tarjeta */
+  --card-width: 350px; /* Incrementar tamaño de la tarjeta */
+  --card-height: 470px; /* Incrementar tamaño de la tarjeta */
   --card-shadow: rgba(0,0,0,0.15);
   --text-color: #333;
   --font-primary: 'Brush Script MT', cursive;
@@ -236,6 +236,7 @@ body {
   position: relative;
   top: -100px;
   margin: 25px;
+  font-size: 18px;
 }
 
 p {
